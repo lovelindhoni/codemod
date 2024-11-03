@@ -33,7 +33,7 @@ const cppPatterns = [
   "**/*.cu",
   "**/*.ino",
 ];
-const jsonPatterns = ["**/*.json"];
+const jsonPatterns = ["**/*.json", "**/*.jsonc"];
 const htmlPatterns = ["**/*.html", "**/*.htm", "**/*.xhtml"];
 export const astGrepLanguageToPatterns: Record<string, string[]> = {
   js: javaScriptPatterns,
